@@ -1,8 +1,5 @@
 # DFATPL--Dataset for "Empirical study on developer factors affecting tossing path length of bug reports"
 
-The dataset is in .CSV format, contains 4-band and 8-band multispectral imagery, and is quite large at ~3.5TB in size. fMoW-rgb is in JPEG format, all multispectral imagery has been converted to RGB, and it is significantly smaller in size at ~200GB.
-
-
 ## References
 
 If you use our dataset or code, please cite [our paper](http://digital-library.theiet.org/content/journals/10.1049/iet-sen.2017.0159):
