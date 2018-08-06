@@ -63,4 +63,4 @@ BugID	Dev1     Dev2  Dev3      Dev4          Dev5      Dev6        Dev7         
 The dataset used in this paper can be obtained by processing the [raw data](https://github.com/ssea-lab/BugTriage/tree/master/raw%20data).
 
 ## License
-This dataset is licensed under the [BugTriage License](https://github.com/ssea-lab/BugTriage/blob/master/LICENSE) license.
+This dataset is licensed under the [BugTriage Project](https://github.com/ssea-lab/BugTriage/blob/master/LICENSE) license.
