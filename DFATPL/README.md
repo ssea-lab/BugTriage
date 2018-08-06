@@ -18,7 +18,7 @@ If you use the dataset or code, please cite [our paper](http://digital-library.t
 
 ## Data description
 
-DFATPL_Eclipse contains two files "history&tp" and "input_data", which are the datasets for experiments of Eclipse project in [our paper]. The file DFATPL_Mozilla contains the datasets applied for experiments of Mozilla project.
+DFATPL_Eclipse contains two files "history&tp" and "input_data", which are the datasets for experiments of Eclipse project in [our paper](http://digital-library.theiet.org/content/journals/10.1049/iet-sen.2017.0159). The file DFATPL_Mozilla contains the datasets applied for experiments of Mozilla project.
 
 ```
 1. history&tp -- the history and tossing path of bug reports.
