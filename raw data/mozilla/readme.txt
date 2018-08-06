@@ -1,0 +1,1 @@
+Please follow the guidance of the Eclipse project.
