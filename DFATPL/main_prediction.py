@@ -49,7 +49,7 @@ from sklearn import preprocessing
 le =preprocessing.LabelEncoder()
 labelList =df_data['fixer'].tolist()
 le.fit(labelList)
-labels=le.transform(labelList)   #标签数值化
+labels=le.transform(labelList)   
 print len(labels)
 
 del rawdeldata; deldata; labelList
@@ -72,7 +72,7 @@ for featurelist in featureset:
     print featurelist
     featurelist.extend(list(np.arange(6, 26)))
     df_dataset = df_data[featurelist]
-    df_dataset = pd.get_dummies(df_dataset)  # 将标称型值的特征向量化
+    df_dataset = pd.get_dummies(df_dataset)  
     nd_dataset_org = pd.DataFrame.as_matrix(df_dataset)
 
     print resultStr1
