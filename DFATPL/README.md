@@ -60,4 +60,6 @@ BugID	 Dev1	 	 	 Dev2 	 	 Dev3 	 	 Dev4 	 	 Dev5 	 	 Dev6 	 	 	 	 Dev7 	 	 	 	 D
 ## Additional details
 
 The datasets in this paper can be obtained by processing the raw data in https://github.com/ssea-lab/BugTriage/tree/master/raw%20data/eclipse.
-  
+
+## License
+This data is licensed under the [BugTriage License](https://github.com/ssea-lab/BugTriage/blob/master/LICENSE).
