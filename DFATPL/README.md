@@ -1,13 +1,12 @@
 # DFATPL--Dataset for "Empirical study on developer factors affecting tossing path length of bug reports"
 
-## References
+## Reference
 
-If you use the dataset or code, please cite [our paper](http://digital-library.theiet.org/content/journals/10.1049/iet-sen.2017.0159):
+If you want to use the dataset or code, please cite [our paper](http://digital-library.theiet.org/content/journals/10.1049/iet-sen.2017.0159):
 
 ```
-@inproceedings{fmow2018,
-  title={Empirical study on developer factors affecting tossing path length of bug reports},
-  author={Hongrun Wu, Haiyang Liu, Yutao Ma},
+@inproceedings{title={Empirical study on developer factors affecting tossing path length of bug reports},
+  authors={Hongrun Wu, Haiyang Liu, Yutao Ma},
   journal={IET Software},
   volume={12},
   number={3},
@@ -18,14 +17,15 @@ If you use the dataset or code, please cite [our paper](http://digital-library.t
 
 ## Data description
 
-DFATPL_Eclipse contains two files "history&tp" and "input_data", which are the datasets for experiments of Eclipse project in [our paper](http://digital-library.theiet.org/content/journals/10.1049/iet-sen.2017.0159). The file DFATPL_Mozilla contains the datasets applied for experiments of Mozilla project.
+DFATPL_Eclipse contains two files "history&tp" and "input_data", which were used in the experiments for the Eclipse project. Similarly, the file directory DFATPL_Mozilla contains the files used in the experiments for the Mozilla project.
 
 ```
-1. history&tp -- the history and tossing path of bug reports.
+1. history&tp -- the modified history and tossing path of bug reports.
 
-(a) Bughistory_filter -- This dataset contains the changing history ("When", "Who", "What", "Added", "Removed") of a bug report. This dataset is filtered from "Bughistory.rar" by exacting the "What" filed with "Assignee", "Status" and "Resolution".  
-Data details of BugID=35 in Eclipse project:
-When	 	 	 	 	 Who	 	 	 	 What	 	 	 Added	 	 	 Removed
+(a) Bughistory_filter -- This file contains the modified history ("When," "Who," "What," "Added," and "Removed") of bug reports. It was obtained from "Bughistory.rar" by extracting the "What" field with "Assignee", "Status," and "Resolution."  
+
+For example, the details of BugID=35 in the Eclipse project:
+When	 	 	 	 	          Who	 	 	 	          What	 	  Added	 	 	      Removed
 2001-10-12 16:36:59 EDT	jean-michel_lemieux	Assignee	Michael_Valenta	Jean-Michel_Lemieux
 2001-10-12 16:36:59 EDT	jean-michel_lemieux	Status	NEW	ASSIGNED
 2001-10-18 16:21:36 EDT	Michael_Valenta	Status	ASSIGNED	NEW
@@ -36,8 +36,9 @@ When	 	 	 	 	 Who	 	 	 	 What	 	 	 Added	 	 	 Removed
 2002-04-03 14:44:18 EST	jean-michel_lemieux	Resolution	FIXED	---
 2002-04-09 09:16:09 EDT	jean-michel_lemieux	Status	VERIFIED	RESOLVED
 
-(b) TossingPath.rar -- This dataset shows the tossing path of a bug report. All developers in the tossing path have participated in the fixing process, and the last developer of the path is the one who finally fixes the bug report. For example, in the file "8.csv" of Eclipse project, the bug report ("BugID"=10407) is tossed by 8 times until it is being fixed.  
-BugID	 Dev1	 	 	 Dev2 	 	 Dev3 	 	 Dev4 	 	 Dev5 	 	 Dev6 	 	 	 	 Dev7 	 	 	 	 Dev8
+(b) TossingPath.rar -- This file shows the tossing path of a bug report. Although all developers in a tossing path have participated in the fixing process of a bug report, the last developer in the path is the fixer who finally fixes the bug report. For example, in the file "8.csv" of the Eclipse project, the bug report ("BugID"=10407) is tossed out eight times until it is fixed.  
+
+BugID	Dev1	 	 	    Dev2 	    	Dev3 	 	    Dev4 	  	  Dev5 	 	    Dev6 	 	 	  	  Dev7 	 	 	 	        Dev8
 10407	kevin_haaland	mike_wilson	grant_gayed	nick_edgar	tod_creasey	kai-uwe_maetzel	platform-text-inbox	daniel_megert
 13895	nick_edgar	randy_giffen	tod_creasey	chris_mclaren	csmclaren	debbie_wilson	platform-ui-inbox	bokowski
 14856	eduardo_pereira	kevin_haaland	platform-ui-inbox	tod_creasey	mvm	michaelvanmeekeren	platform-swt-inbox	veronika_irvine
@@ -49,17 +50,17 @@ BugID	 Dev1	 	 	 Dev2 	 	 Dev3 	 	 Dev4 	 	 Dev5 	 	 Dev6 	 	 	 	 Dev7 	 	 	 	 D
 18901	nick_edgar	randy_giffen	simon_arsenault	andrew_irvine	eduardo_pereira	airvine	platform-ui-inbox	tod_creasey
 ```
 
-```
-2. DFATPL_Eclipse_input: The input data for the ML classfiers are included in this file. 
+2. DFATPL_ProjectName_input: The input data for machine learning classfiers is included in this file. 
 
+```
 (a) feautres_input_TossingProb.csv -- The tossing probability between two developers are listed in this file.
 
-(b) feautres_input.rar -- The feautres inputed for the classfiers in our paper is included in this dataset.
+(b) feautres_input.rar -- The feautres inputted to machine learning classfiers in our paper are included in this file.
 ```
 
 ## Additional details
 
-The datasets in this paper can be obtained by processing the [raw data](https://github.com/ssea-lab/BugTriage/tree/master/raw%20data/eclipse).
+The dataset used in this paper can be obtained by processing the [raw data](https://github.com/ssea-lab/BugTriage/tree/master/raw%20data).
 
 ## License
-This data is licensed under the [BugTriage License](https://github.com/ssea-lab/BugTriage/blob/master/LICENSE).
+This dataset is licensed under the [BugTriage License](https://github.com/ssea-lab/BugTriage/blob/master/LICENSE) license.
