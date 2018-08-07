@@ -4,3 +4,8 @@ This work was partially supported by the National Natural Science Foundation of 
 
 1. 刘海洋, 马于涛. [一种针对软件缺陷自动分派的开发者推荐方法](http://xwxt.sict.ac.cn/CN/Y2017/V38/I12/2747). 小型微型计算机系统, 38(12): 2747-2753, 2017. (For papers written in Chinese)
 2. Hongrun Wu, Haiyang Liu, Yutao Ma. [Empirical study on developer factors affecting tossing path length of bug reports](http://digital-library.theiet.org/content/journals/10.1049/iet-sen.2017.0159). IET Software, 12(3): 258-270, 2018. (For papers written in English)
+
+In addition to traditional machine learning algorithms (such as SVM), we implemented deep learning algorithms based on convolutional neural networks. If you want to compare your own approach with these CNN-based algorithms (as baseline approaches), please refer to [the code](https://github.com/huazhisong/graduate_text) written by [Huazhi Song](https://github.com/huazhisong) and cite the following paper.
+
+宋化志,马于涛. DeepTriage：一种基于深度学习的软件缺陷自动分配方法. 小型微型计算机系统, 2018. (录用待刊)
+Huazhi Song, Yutao Ma. DeepTriage: An Automatic Triage Method for Software Bugs Using Deep Learning. Journal of Chinese Computer Systems, 2018. (Accepted, in Chinese with English Abstract)
