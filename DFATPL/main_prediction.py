@@ -22,7 +22,7 @@ from sklearn.metrics import precision_recall_fscore_support
 from sklearn.metrics import classification_report
 root='E:\\HRW\\Eclipse'
 dataPath = root + '\\data_whole_fixer.csv'
-delfixer = root + '\\deldevs.csv' # developers who never fixed a bug report
+delfixer = root + '\\deldevs.csv' # remove developers who on the weak tossing link
 
 if len(sys.argv) < 2:  
     print 'You have to input args'
