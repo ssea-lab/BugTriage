@@ -56,6 +56,8 @@ BugID	Dev1     Dev2  Dev3      Dev4          Dev5      Dev6        Dev7         
 (a) feautres_input_TossingProb.csv -- The tossing probability between two developers are listed in this file.
 
 (b) feautres_input.rar -- The feautres inputted to machine learning classfiers in our paper are included in this file.
+
+(c) deldevs.csv -- This file includes developers who are on the very weak tossing ties.
 ```
 
 ## Additional details
