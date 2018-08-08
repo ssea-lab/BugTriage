@@ -1,4 +1,4 @@
-# MLBT--Dataset for "一种基于文本分类和评分机制的软件缺陷自动分派方法研究"
+# MLBT--Dataset for "A Software Bug Triaging Method Based on Text Classification and Developer Rating"
 
 ## Reference
 
