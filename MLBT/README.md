@@ -9,7 +9,7 @@ If you want to use this dataset, please cite the following master thesis:
   title={一种基于文本分类和评分机制的软件缺陷分配方法}/{A Software Bug Triaging Method Based on Text Classification and Developer Rating},
   author={史小婉}/{Xiaowan Shi},
   school={武汉大学}/{Wuhan University},
-  year={2018},
+  year={2018}
 }
 ```
 
