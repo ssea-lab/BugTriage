@@ -5,7 +5,7 @@
 If you want to use the dataset or code, please cite [our paper](http://digital-library.theiet.org/content/journals/10.1049/iet-sen.2017.0159):
 
 ```
-@inproceedings{title={Empirical study on developer factors affecting tossing path length of bug reports},
+@article{title={Empirical study on developer factors affecting tossing path length of bug reports},
   authors={Hongrun Wu, Haiyang Liu, Yutao Ma},
   journal={IET Software},
   volume={12},
