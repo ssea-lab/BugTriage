@@ -20,7 +20,7 @@ MLC contains two files "eclipse" and "mozilla", which are the datasets for exper
 ```
 1. com-pro-id.csv -- it shows the extracted component and product feature of each bug report.
 2. Buginfo -- this file directory contains the infomation (summary, description and comments) and the fixer of bug reports
-3. Eclipse-multi-labels -- this dataset contains the multi-labels (i.e., all the participants) of each fixed bug report.
+3. multilabels.rar -- this dataset contains the multi-labels (i.e., all the participants) of each fixed bug report.
 ```
 
 ## Additional details
