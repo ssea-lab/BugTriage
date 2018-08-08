@@ -9,4 +9,6 @@ In addition to traditional machine learning algorithms (such as SVM), we impleme
 
 3. 宋化志, 马于涛. DeepTriage：一种基于深度学习的软件缺陷自动分配方法. 小型微型计算机系统, 2018. (录用待刊)--Huazhi Song, Yutao Ma. DeepTriage: An Automatic Triage Method for Software Bugs Using Deep Learning. Journal of Chinese Computer Systems, 2018. (Accepted, in Chinese with English Abstract)
 
-4. 史小婉. 一种基于文本分类和评分机制的软件缺陷自动分派方法研究(A Software Bug Triaging Method Based on Text Classification and Developer Rating). 武汉大学, 2018.
+The study mentioined above focuses on predicting the final fixer for a given bug report. Another view holds that any developer on the tossing path of a bug report contributes to the resolution of the bug. Recently, a few researchers considered bug triage as a multi-label classification problem. To this end, we also provide a dataset called [MLBT](https://github.com/ssea-lab/BugTriage/tree/master/MLBT) for researchers who are working on this problem. If you want to use this dataset and the benchmark result of our approach, please cite the following thesis.
+
+4. 史小婉. [一种基于文本分类和评分机制的软件缺陷自动分派方法研究](https://github.com/ssea-lab/BugTriage/blob/master/MLBT/一种基于文本分类和评分机制的软件缺陷自动分派方法研究.pdf). 武汉: 武汉大学, 2018. (Xiaowan Shi. A Software Bug Triaging Method Based on Text Classification and Developer Rating. Wuhan: Wuhan University, 2018.)
