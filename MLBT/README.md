@@ -19,7 +19,9 @@ MLBT contains two file directories "eclipse" and "mozilla", which are two datase
 
 ```
 1. features_component_product.rar  -- it records the extracted features (i.e., component and product) of each bug report.
+
 2. Buginfo -- this file directory contains the infomation (i.e., summary, description, and comments) and fixer of each bug report.
+
 3. multi-labels.rar -- this file contains all the participants on the tossing path of each fixed bug report. (Note that any developer on the tossing path of a bug report contributes to the resolution of the bug.)
 ```
 
