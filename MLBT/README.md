@@ -1,4 +1,4 @@
-# MLBT--Dataset for "一种基于文本分类和评分机制的软件缺陷分配方法"
+# MLBT--Dataset for "一种基于文本分类和评分机制的软件缺陷自动分派方法研究"
 
 ## Reference
 
@@ -6,7 +6,7 @@ If you want to use this dataset, please cite the following master thesis:
 
 ```
 @thesis{
-  title={一种基于文本分类和评分机制的软件缺陷分配方法}/{A Software Bug Triaging Method Based on Text Classification and Developer Rating},
+  title={一种基于文本分类和评分机制的软件缺陷自动分派方法研究}/{A Software Bug Triaging Method Based on Text Classification and Developer Rating},
   author={史小婉}/{Xiaowan Shi},
   school={武汉大学}/{Wuhan University},
   year={2018}
