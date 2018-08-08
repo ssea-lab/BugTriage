@@ -8,3 +8,5 @@ This work was partially supported by the National Natural Science Foundation of 
 In addition to traditional machine learning algorithms (such as SVM), we implemented deep learning algorithms based on convolutional neural networks (CNNs). If you want to compare your own approach with these CNN-based algorithms (as baseline approaches), please refer to [the code](https://github.com/huazhisong/graduate_text) written by [Huazhi Song](https://github.com/huazhisong) and cite the following paper.
 
 3. 宋化志, 马于涛. DeepTriage：一种基于深度学习的软件缺陷自动分配方法. 小型微型计算机系统, 2018. (录用待刊)--Huazhi Song, Yutao Ma. DeepTriage: An Automatic Triage Method for Software Bugs Using Deep Learning. Journal of Chinese Computer Systems, 2018. (Accepted, in Chinese with English Abstract)
+
+4. 史小婉. 一种基于文本分类和评分机制的软件缺陷自动分派方法研究(A Software Bug Triaging Method Based on Text Classification and Developer Rating). 武汉大学, 2018.
