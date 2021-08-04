@@ -23,7 +23,6 @@ class ConvNet(nn.Module):
 class LSTMNet(nn.Module):
     def __init__(self, embedding_dim, num_hiddens, num_layers):
         super(LSTMNet, self).__init__()
-        # embedding之后的shape: torch.Size([200, 8, 300])
         self.encoder = nn.LSTM(input_size=embedding_dim,
                                hidden_size=num_hiddens,
                                num_layers=num_layers,
@@ -32,12 +31,8 @@ class LSTMNet(nn.Module):
         self.decoder = nn.Linear(2 * num_hiddens, 2)
 
     def forward(self, inputs):
-        #inputs形状为(seq_len,batch_size,embedding_dim)
-        # rnn.LSTM只返回最后一层的隐藏层在各时间步的隐藏状态。
         outputs, _ = self.encoder(inputs)  # output, (h, c)
-        # outputs形状是(seq_len,batch_size, 2 * num_hiddens)
         outs = self.decoder(outputs)
-        # out形状是(batch_size, 2)
         return outs
 
 
