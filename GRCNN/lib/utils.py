@@ -26,7 +26,7 @@ def re_max_min_normalization(x, _max, _min):
 
 
 
-def load_graphdata_channel1(graph_signal_matrix_filename, num_of_hours, num_of_days, num_of_weeks, DEVICE, batch_size, shuffle=True):
+def load_graphdata_channel(graph_signal_matrix_filename, num_of_hours, num_of_days, num_of_weeks, DEVICE, batch_size, shuffle=True):
 
     file = os.path.basename(graph_signal_matrix_filename).split('.')[0]
 
