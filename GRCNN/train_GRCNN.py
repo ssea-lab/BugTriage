@@ -10,7 +10,7 @@ import shutil
 import argparse
 import configparser
 from model.GRCNN import make_model
-from lib.utils import evaluate_on_test_grcnn, compute_val_loss_grcnn, predict_and_save_results_grcnn
+from lib.utils import evaluate_on_test_grcnn, compute_val_loss_grcnn, predict_and_save_results_grcnn, load_graphdata_channel
 from tensorboardX import SummaryWriter
 
 parser = argparse.ArgumentParser()
@@ -64,7 +64,7 @@ num_layers = int(training_config['num_layers'])
 a = int(training_config['a'])
 
 
-train_loader, train_target_tensor, val_loader, val_target_tensor, test_loader, test_target_tensor, _mean, _std = load_graphdata_channel1(
+train_loader, train_target_tensor, val_loader, val_target_tensor, test_loader, test_target_tensor, _mean, _std = load_graphdata_channel(
     graph_signal_matrix_filename, num_of_hours,num_of_days, num_of_weeks, DEVICE, batch_size)
 
 net = make_model(DEVICE,num_of_hours, num_of_days, num_of_weeks, k_1, k_2, a, input_c, num_hiddens, num_layers,fc_num1,fc_num2,out_dim)
